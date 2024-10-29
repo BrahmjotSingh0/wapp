@@ -13,6 +13,7 @@
   width: 90vw;
   max-width: 400px;
   height: 70vh;
+  max-height: 100vh;
   border: 1px solid #ddd;
   border-radius: 10px;
   display: flex;
@@ -29,9 +30,6 @@
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
-
-
-
 
 .back-button {
   background: none;
@@ -84,7 +82,8 @@
   padding: 10px;
   background-color: #d9d9d9;
   overflow-y: auto;
-  background: url("https://i.ibb.co/3s1f9Jq/default-wallpaper.png") repeat;
+  background: url("https://i.ibb.co/3s1f9Jq/default-wallpaper.png") no-repeat center center;
+  background-size: cover;
 }
 
 .message {
@@ -153,7 +152,6 @@
 }
 
 .camera-button {
-    top: 17px;
   right: 80px;
 }
 
@@ -198,6 +196,7 @@
   .whatsapp-ui {
     width: 100vw;
     height: 80vh;
+    max-height: 80vh;
   }
 
   .controls {
