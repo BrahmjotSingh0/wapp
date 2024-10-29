@@ -3,4 +3,4 @@ A whatsapp fake message ui
 
 Only for Fun Purpose
 
-https://fakewhatsappmessages.netlify.app
+https://fakemessagetoolwhats-app.netlify.app
